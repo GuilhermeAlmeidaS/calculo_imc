@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Cáculo Web</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+  </head>
+
+<body>
+    
+    <form name="imcForm" id="imcForm" action="#">
+    
+    <div id=titulo> Cálculo de IMC </div>
+    <label for="altura">Altura</label>
+        <input type="text" id="altura" name="altura" placeholder="0.00" />
+
+    <p>
+        Peso <br />
+        <input type="text" id="peso" name="peso" placeholder="0.00" />
+    </p>
+
+    <p>
+        <label>
+        <input type="radio" name="sexo" value="opção" id="sexo_0"/> Masculino
+        </label>
+        <br />
+        <label>
+        <input type="radio" name="sexo" value="opção" id="sexo_1"/> Feminino
+        </label>
+    </p>
+
+    <p>
+        <input id=botao name="Enviar" type="submit" value="Calcular" onclick="calcula_imc()"/>
+    </p>
+
+  </form>
+</body>

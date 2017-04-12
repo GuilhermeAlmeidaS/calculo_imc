@@ -1,0 +1,27 @@
+body {
+    background-color: #dcdcdc;
+}
+
+#imcForm{
+     
+    width: 400px; 
+    height: 150px; 
+    left: 55%; 
+    margin: -130px 0 0 -210px; 
+    padding:10px;
+    position: absolute; 
+    top: 50%;
+}
+
+#botao {
+    border-radius: 5px;
+    background-color: #32CD32;
+}
+
+#titulo {
+   font-size: 28pt;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+}
